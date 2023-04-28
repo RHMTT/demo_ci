@@ -1,0 +1,6 @@
+---
+- name: CICD playbook
+  hosts: all
+  tasks:
+  - name: Basic Ping
+    ping:
